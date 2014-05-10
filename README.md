@@ -1,7 +1,7 @@
 
 # Ruby DevPack
 
-A DevPack with all you need for developing with Ruby on Windows, shrink-wrapped in a portable package.
+A DevPack with all you need for developing with Ruby on Windows, shrink-wrapped in a portable package. No installation, just [extract and get going](https://github.com/tknerr/ruby-devpack#usage)!
 
 ## What's inside?
 
