@@ -5,6 +5,9 @@ A DevPack with all you need for developing with Ruby on Windows, shrink-wrapped 
 
 No installation, just [extract and get going](#usage)!
 
+![Ruby DevPack Screenshot](https://raw.github.com/tknerr/ruby-devpack/master/doc/ruby_devpack_screenshot.png)
+
+
 ## What's inside?
 
 ### Main Tools
