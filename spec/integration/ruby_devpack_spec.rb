@@ -27,7 +27,7 @@ describe "Ruby DevPack" do
   end
 
   describe "environment" do
-    it "sets HOME to W:/home" do
+    it "sets HOME to X:/home" do
       env_match "HOME=#{BUILD_DIR}/home"
     end
     it "sets TERM=rxvt" do
@@ -36,7 +36,7 @@ describe "Ruby DevPack" do
     it "sets ANSICON=true" do
       env_match "ANSICON=true"
     end
-    it "sets SSL_CERT_FILE to W:/home/cacert.pem" do
+    it "sets SSL_CERT_FILE to X:/home/cacert.pem" do
       env_match "SSL_CERT_FILE=#{BUILD_DIR}/home/cacert.pem"
     end
   end

@@ -23,14 +23,14 @@ Useful additions for a better cooking experience:
 
 ### Environmental Changes
 
-The following changes are applied to your environment by running `W:\set-env.bat`:
+The following changes are applied to your environment by running `X:\set-env.bat`:
 
-* Constraining as much as possible to the `W:\` drive:
- * `%HOME%` points to `W:\home`
- * `%PATH%` is preprended with the bin dirs of the tools in `W:\tools\`
+* Constraining as much as possible to the `X:\` drive:
+ * `%HOME%` points to `X:\home`
+ * `%PATH%` is preprended with the bin dirs of the tools in `X:\tools\`
 * Fixing annoyances:
  * `set ANSICON=true` to get coloured console output
- * `set SSL_CERT_FILE=W:\home\cacert.pem` pointing to recent CA certs avoiding Ruby SSL errors
+ * `set SSL_CERT_FILE=X:\home\cacert.pem` pointing to recent CA certs avoiding Ruby SSL errors
 
 ### Aliases
 
@@ -65,10 +65,20 @@ $ rake package
 This will and finally package everything in the `target/build` directory into `target/ruby-devpack-<version>.7z`.
 
 
+### Changing the Drive Letter
+
+By default the Ruby DevPack will be mounted to the `X:\` drive. If you need to change it you have to edit the following files **before** you build the DevPack:
+
+* `files/mount-drive.cmd`
+* `files/unmount-drive.cmd`
+* `files/Launch ConEmu.lnk`
+* `files/Launch Sublime Text 2.lnk`
+
+
 ## Usage
 
 1. unzip the `target/ruby-devpack-<version>.7z` somewhere
-2. mount the devpack to the `W:\` drive by double-clicking the `mount-w-drive.bat` file
-3. click `W:\Launch ConEmu.lnk` to open a command prompt
-4. in the command prompt run `W:\set-env.bat` to set up the environment
+2. mount the devpack to the `X:\` drive by double-clicking the `mount-w-drive.bat` file
+3. click `X:\Launch ConEmu.lnk` to open a command prompt
+4. in the command prompt run `X:\set-env.bat` to set up the environment
 5. start hacking!
