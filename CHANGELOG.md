@@ -1,5 +1,5 @@
  
-# [0.2-SNAPSHOT] - unreleased
+# [0.2] from 10/05/2014
 
  * updated tools:
    * Ruby 2.0.0p451
