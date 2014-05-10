@@ -1,3 +1,7 @@
+
+# [0.3-SNAPSHOT] - unreleased
+
+ * ...
  
 # [0.2] from 10/05/2014
 
