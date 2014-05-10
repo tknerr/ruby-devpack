@@ -1,6 +1,6 @@
 
 BUILD_DIR=File.expand_path('./target/build')
-SYSTEM_RUBY = "#{BUILD_DIR}/tools/ruby-1.9.3"
+SYSTEM_RUBY = "#{BUILD_DIR}/tools/ruby-2.0.0"
 
 module Helpers
   # sets the environment via set-env.bat before running the command

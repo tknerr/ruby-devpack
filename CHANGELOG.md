@@ -1,7 +1,10 @@
  
 # [0.2-SNAPSHOT] - unreleased
 
- * ...
+ * updated tools:
+   * Ruby 2.0.0p451
+   * DevKit 4.7.2
+   * Bundler 1.6.2
 
 # [0.1] from 10/05/2014
 

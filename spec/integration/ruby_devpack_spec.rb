@@ -6,11 +6,11 @@ describe "Ruby DevPack" do
   include Helpers
 
   describe "tools" do
-    it "installs Ruby 1.9.3p545" do
-      run_cmd("ruby -v").should match('1.9.3p545')
+    it "installs Ruby 2.0.0p451" do
+      run_cmd("ruby -v").should match('2.0.0p451')
     end
-    it "installs RubyGems 1.8.28" do
-      run_cmd("gem -v").should match("1.8.28")
+    it "installs RubyGems 2.0.14" do
+      run_cmd("gem -v").should match("2.0.14")
     end
     it "installs Git 1.9" do
       run_cmd("git --version").should match('git version 1.9.0')
@@ -60,10 +60,10 @@ describe "Ruby DevPack" do
         run_cmd("which gem").should match(convert_slashes("#{SYSTEM_RUBY}/bin/gem"))
       end
       it "uses the system ruby gemdir" do
-        run_cmd("#{SYSTEM_RUBY}/bin/gem environment gemdir").should match("#{SYSTEM_RUBY}/lib/ruby/gems/1.9.1")
+        run_cmd("#{SYSTEM_RUBY}/bin/gem environment gemdir").should match("#{SYSTEM_RUBY}/lib/ruby/gems/2.0.0")
       end
-      it "has 'bundler (1.5.3)' gem installed" do
-        gem_installed "bundler", "1.5.3"
+      it "has 'bundler (1.6.2)' gem installed" do
+        gem_installed "bundler", "1.6.2"
       end
     end
   end

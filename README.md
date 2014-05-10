@@ -11,8 +11,8 @@ No installation, just [extract and get going](#usage)!
 
 The main tools for cooking with Chef / Vagrant:
 
-* [Ruby](http://rubyinstaller.org/downloads/) 1.9.3
-* [DevKit](http://rubyinstaller.org/add-ons/devkit/) 4.5.2
+* [Ruby](http://rubyinstaller.org/downloads/) 2.0.0
+* [DevKit](http://rubyinstaller.org/add-ons/devkit/) 4.7.2
 
 ### Supporting Tools
 
