@@ -72,13 +72,10 @@ This will and finally package everything in the `target/build` directory into `t
 
 ### Changing the Drive Letter
 
-By default the Ruby DevPack will be mounted to the `X:\` drive. If you need to change it you have to edit the following files **before** you build the DevPack:
+By default the Ruby DevPack will be mounted to the `X:\` drive. If you need to change it you only have to update the references in these two files:
 
-* `files/mount-drive.cmd`
-* `files/unmount-drive.cmd`
-* `files/Launch ConEmu.lnk`
-* `files/Launch Sublime Text 2.lnk`
-
+* `mount-drive.cmd`
+* `unmount-drive.cmd`
 
 ## Usage
 
