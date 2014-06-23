@@ -6,8 +6,8 @@ describe "Ruby DevPack" do
   include Helpers
 
   describe "tools" do
-    it "installs Ruby 2.0.0p451" do
-      run_cmd("ruby -v").should match('2.0.0p451')
+    it "installs Ruby 2.0.0p481" do
+      run_cmd("ruby -v").should match('2.0.0p481')
     end
     it "installs RubyGems 2.0.14" do
       run_cmd("gem -v").should match("2.0.14")
