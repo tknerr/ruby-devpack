@@ -3,6 +3,7 @@
 
  * made it easier to change the mount drive letter ([#1](https://github.com/tknerr/ruby-devpack/issues/1))
  * fix setting git username ([#2](https://github.com/tknerr/ruby-devpack/issues/2))
+ * add clink for command autocompletion ([#3](https://github.com/tknerr/ruby-devpack/issues/3))
  
 # [0.2] from 10/05/2014
 

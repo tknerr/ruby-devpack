@@ -13,6 +13,10 @@ set KDIFF3DIR=%SCRIPT_DIR%tools\kdiff3
 set CONEMUDIR=%SCRIPT_DIR%tools\conemu
 set SUBLIMEDIR=%SCRIPT_DIR%tools\sublimetext2
 set PUTTYDIR=%SCRIPT_DIR%tools\putty
+set CLINKDIR=%SCRIPT_DIR%tools\clink
+
+:: inject clink into current cmd.exe
+call %CLINKDIR%\clink.bat inject
 
 :: set %RI_DEVKIT$ env var and add DEVKIT to the PATH
 call %DEVKITDIR%\devkitvars.bat
@@ -61,6 +65,7 @@ echo KDIFF3DIR=%KDIFF3DIR%
 echo CONEMUDIR=%CONEMUDIR%
 echo SUBLIMEDIR=%SUBLIMEDIR%
 echo PUTTYDIR=%PUTTYDIR%
+echo CLINKDIR=%CLINKDIR%
 echo GITDIR=%GITDIR%
 echo GIT_CONF_USERNAME=%GIT_CONF_USERNAME%
 echo GIT_CONF_EMAIL=%GIT_CONF_EMAIL%

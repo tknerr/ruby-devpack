@@ -21,10 +21,11 @@ The main tools for cooking with Chef / Vagrant:
 
 Useful additions for a better cooking experience:
 
-* [ConEmu](https://code.google.com/p/conemu-maximus5/) - a better windows console with colours, tabs, etc...
+* [ConEmu](https://code.google.com/p/conemu-maximus5/) - a better Windows console with colours, tabs, etc...
 * [SublimeText2](http://www.sublimetext.com/) - a better editor (trial version)
-* [PortableGit](https://code.google.com/p/msysgit/) - git client for windows (preconfigured with [kdiff3](http://kdiff3.sourceforge.net/) as diff/merge tool)
-* [putty](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html) - the SSH client for windows
+* [PortableGit](https://code.google.com/p/msysgit/) - git client for Windows (preconfigured with [kdiff3](http://kdiff3.sourceforge.net/) as diff/merge tool)
+* [putty](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html) - the SSH client for Windows
+* [clink](http://mridgers.github.io/clink/) - command completion and Bash-like line editing for Windows
 
 ### Environmental Changes
 
