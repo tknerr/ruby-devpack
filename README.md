@@ -70,7 +70,7 @@ $ rake package
 This will and finally package everything in the `target/build` directory into `target/ruby-devpack-<version>.7z`.
 
 
-### Changing the Drive Letter
+### Changing the Mount Drive Letter
 
 By default the Ruby DevPack will be mounted to the `X:\` drive. If you need to change it you only have to update the references in these two files:
 
