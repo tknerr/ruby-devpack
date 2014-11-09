@@ -1,7 +1,7 @@
 
 # Ruby DevPack
 
-A DevPack with all you need for developing with Ruby on Windows, shrink-wrapped in a portable package. 
+A [DevPack](http://blog.tknerr.de/blog/2014/10/09/devpack-philosophy-aka-works-on-your-machine/) with all you need for developing with Ruby on Windows, shrink-wrapped in a portable package. 
 
 No installation, just [extract and get going](#usage)!
 
@@ -12,7 +12,7 @@ No installation, just [extract and get going](#usage)!
 
 ### Main Tools
 
-The main tools for cooking with Chef / Vagrant:
+The main tools for hacking Ruby:
 
 * [Ruby](http://rubyinstaller.org/downloads/) 2.0.0
 * [DevKit](http://rubyinstaller.org/add-ons/devkit/) 4.7.2
