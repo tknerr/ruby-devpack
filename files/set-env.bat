@@ -16,7 +16,7 @@ set PUTTYDIR=%SCRIPT_DIR%tools\putty
 set CLINKDIR=%SCRIPT_DIR%tools\clink
 
 :: inject clink into current cmd.exe
-call %CLINKDIR%\clink.bat inject
+:: call %CLINKDIR%\clink.bat inject
 
 :: set %RI_DEVKIT$ env var and add DEVKIT to the PATH
 call %DEVKITDIR%\devkitvars.bat
