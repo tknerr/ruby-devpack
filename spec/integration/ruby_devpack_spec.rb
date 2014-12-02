@@ -39,6 +39,9 @@ describe "Ruby DevPack" do
     it "sets ANSICON=true" do
       env_match "ANSICON=true"
     end
+    it "sets RI to use plain format" do
+      env_match "RI=--format bs"
+    end
     it "sets SSL_CERT_FILE to X:/home/cacert.pem" do
       env_match "SSL_CERT_FILE=#{BUILD_DIR}/home/cacert.pem"
     end
