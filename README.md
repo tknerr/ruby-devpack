@@ -14,7 +14,7 @@ No installation, just [extract and get going](#usage)!
 
 The main tools for hacking Ruby:
 
-* [Ruby](http://rubyinstaller.org/downloads/) 2.0.0
+* [Ruby](http://rubyinstaller.org/downloads/) 2.1.5
 * [DevKit](http://rubyinstaller.org/add-ons/devkit/) 4.7.2
 
 ### Supporting Tools
@@ -36,6 +36,7 @@ The following changes are applied to your environment by running `X:\set-env.bat
  * `%PATH%` is preprended with the bin dirs of the tools in `X:\tools\`
 * Fixing annoyances:
  * `set ANSICON=true` to get coloured console output
+ * `set RI=--format bs` to restore plain (i.e. non-ansi colored) output for ri 
  * `set SSL_CERT_FILE=X:\home\cacert.pem` pointing to recent CA certs avoiding Ruby SSL errors
 
 ### Aliases

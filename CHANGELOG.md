@@ -4,8 +4,8 @@
  * made it easier to change the mount drive letter ([#1](https://github.com/tknerr/ruby-devpack/issues/1))
  * fix setting git username ([#2](https://github.com/tknerr/ruby-devpack/issues/2))
  * tool updates
- 	* add clink for command autocompletion ([#3](https://github.com/tknerr/ruby-devpack/issues/3))
- 	* update to Ruby 2.0.0p481
+ 	* add clink for command autocompletion ([#3](https://github.com/tknerr/ruby-devpack/issues/3)), but disabled it by default
+ 	* update to Ruby 2.1.5p273
  
 # [0.2] from 10/05/2014
 
