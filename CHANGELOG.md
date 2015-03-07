@@ -5,6 +5,7 @@
  * fix setting git username ([#2](https://github.com/tknerr/ruby-devpack/issues/2))
  * use Consolas as the default font for ConEmu rather than Monaco (not included in Win7)
  * update packaging to that it does not include the intermediary build directory anymore
+ * add license information and acknowledgements
  * tool updates
  	* add clink for command autocompletion ([#3](https://github.com/tknerr/ruby-devpack/issues/3)), but disabled it by default
  	* update to Ruby 2.2.1
