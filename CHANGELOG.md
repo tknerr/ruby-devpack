@@ -5,7 +5,11 @@
  * fix setting git username ([#2](https://github.com/tknerr/ruby-devpack/issues/2))
  * tool updates
  	* add clink for command autocompletion ([#3](https://github.com/tknerr/ruby-devpack/issues/3)), but disabled it by default
- 	* update to Ruby 2.1.5p273
+ 	* update to Ruby 2.2.1
+ 	* update to PortableGit 1.9.5
+ 	* update to ConEmu 20150305
+ 	* update to bundler 1.8.4
+ 	* update to clink 0.4.4
  
 # [0.2] from 10/05/2014
 

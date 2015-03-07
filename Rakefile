@@ -61,12 +61,12 @@ end
 
 def download_tools
   [
-    %w{ skylink.dl.sourceforge.net/project/conemu/Alpha/ConEmuPack.140304.7z                                conemu },
-    %w{ github.com/mridgers/clink/releases/download/0.4.2/clink_0.4.2_setup.exe                             clink },
+    %w{ skylink.dl.sourceforge.net/project/conemu/Preview/ConEmuPack.150305.7z                              conemu },
+    %w{ github.com/mridgers/clink/releases/download/0.4.4/clink_0.4.4_setup.exe                             clink },
     %w{ c758482.r82.cf2.rackcdn.com/Sublime%20Text%202.0.2%20x64.zip                                        sublimetext2 },
-    %w{ msysgit.googlecode.com/files/PortableGit-1.9.0-preview20140217.7z                                   portablegit },
-    %w{ dl.bintray.com/oneclick/rubyinstaller/ruby-2.1.5-x64-mingw32.7z                                     ruby },
-    %w{ cdn.rubyinstaller.org/archives/devkits/DevKit-mingw64-64-4.7.2-20130224-1432-sfx.exe                devkit },
+    %w{ github.com/msysgit/msysgit/releases/download/Git-1.9.5-preview20141217/PortableGit-1.9.5-preview20141217.7z   portablegit },
+    %w{ dl.bintray.com/oneclick/rubyinstaller/ruby-2.2.1-x64-mingw32.7z                                     ruby },
+    %w{ dl.bintray.com/oneclick/rubyinstaller/DevKit-mingw64-64-4.7.2-20130224-1432-sfx.exe                 devkit },
     %w{ switch.dl.sourceforge.net/project/kdiff3/kdiff3/0.9.96/KDiff3Setup_0.9.96.exe                       kdiff3
         kdiff3.exe },
     %w{ the.earth.li/~sgtatham/putty/0.63/x86/putty.zip                                                     putty }
@@ -78,7 +78,7 @@ end
 
 # move ruby to a shorter path to reduce the likeliness that a gem fails to install due to max path length
 def move_ruby
-  FileUtils.mv "#{BUILD_DIR}/tools/ruby/ruby-2.1.5-x64-mingw32", "#{BUILD_DIR}/tools/ruby-2.1.5"
+  FileUtils.mv "#{BUILD_DIR}/tools/ruby/ruby-2.2.1-x64-mingw32", "#{BUILD_DIR}/tools/ruby-2.2.1"
   FileUtils.rm_rf "#{BUILD_DIR}/tools/ruby"
 end
 
@@ -97,7 +97,7 @@ def install_gems
     # which results in gems being installed to your current Ruby's GEM_HOME rather than the Ruby DevPack's GEM_HOME!!! 
     fail "must run `rake build` instead of `bundle exec rake build`" if ENV['GEM_HOME']
     command = "#{BUILD_DIR}/set-env.bat \
-      && gem install bundler -v 1.6.2 --no-ri --no-rdoc"
+      && gem install bundler -v 1.8.4 --no-ri --no-rdoc"
     fail "gem installation failed" unless system(command)
   end
 end

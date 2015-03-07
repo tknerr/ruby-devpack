@@ -7,7 +7,7 @@
 set SCRIPT_DIR=%~dp0
 
 :: for these we need the bin dirs in PATH
-set RUBYDIR=%SCRIPT_DIR%tools\ruby-2.1.5
+set RUBYDIR=%SCRIPT_DIR%tools\ruby-2.2.1
 set DEVKITDIR=%SCRIPT_DIR%tools\devkit
 set KDIFF3DIR=%SCRIPT_DIR%tools\kdiff3
 set CONEMUDIR=%SCRIPT_DIR%tools\conemu
