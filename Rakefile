@@ -20,7 +20,6 @@ task :build do
   recreate_dirs
   download_tools
   move_ruby
-  download_installables
   copy_files
   install_gems
   run_tests "integration"
@@ -80,15 +79,6 @@ end
 def move_ruby
   FileUtils.mv "#{BUILD_DIR}/tools/ruby/ruby-2.2.1-x64-mingw32", "#{BUILD_DIR}/tools/ruby-2.2.1"
   FileUtils.rm_rf "#{BUILD_DIR}/tools/ruby"
-end
-
-def download_installables
-  %w{ 
-    www.gringod.com/wp-upload/MONACO.TTF
-  }
-  .each do |host_and_path|
-    download "http://#{host_and_path}", "#{BUILD_DIR}/install/#{File.basename(host_and_path)}"
-  end
 end
 
 def install_gems
