@@ -1,4 +1,8 @@
 
+# 0.4 (unreleased)
+
+ * ...
+
 # 0.3 (March 08, 2015)
 
  * made it easier to change the mount drive letter ([#1](https://github.com/tknerr/ruby-devpack/issues/1))
