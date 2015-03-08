@@ -1,5 +1,5 @@
 
-# [0.3-SNAPSHOT] - unreleased
+# 0.3 (March 08, 2015)
 
  * made it easier to change the mount drive letter ([#1](https://github.com/tknerr/ruby-devpack/issues/1))
  * fix setting git username ([#2](https://github.com/tknerr/ruby-devpack/issues/2))
@@ -14,14 +14,14 @@
  	* update to bundler 1.8.4
  	* update to clink 0.4.4
  
-# [0.2] from 10/05/2014
+# 0.2 (May 10, 2014)
 
  * updated tools:
    * Ruby 2.0.0p451
    * DevKit 4.7.2
    * Bundler 1.6.2
 
-# [0.1] from 10/05/2014
+# 0.1 (May 10, 2014)
 
 Initial version, based on [Bill's Kitchen](https://github.com/tknerr/bills-kitchen) 1.0 but with Chef and Vagrant specifics being stripped out. It currently includes:
  
