@@ -2,6 +2,13 @@
 BUILD_DIR=File.expand_path('./target/build')
 SYSTEM_RUBY = "#{BUILD_DIR}/tools/ruby-2.2.1"
 
+# enable :should syntax for rspec 3
+RSpec.configure do |config|
+  config.expect_with :rspec do |c|
+    c.syntax = [:should, :expect]
+  end
+end
+
 module Helpers
   # sets the environment via set-env.bat before running the command
   # and returns whatever the cmd writes (captures both stdout and stderr)
