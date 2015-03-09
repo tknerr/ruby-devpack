@@ -46,9 +46,18 @@ Registered doskey aliases:
 * run `be <command>` for `bundle exec <command>`
 * run `vi <file_or_dir>` for `sublime_text <file_or_dir>` 
 
-## Installation
+## Installation and Usage
 
-As a prerequisite for building the Ruby DevPack you need Ruby (yes chicken-egg ;-)) and 7zip installed in `C:\Program Files\7-Zip\7z.exe`.
+Using the Ruby DevPack is fairly simple. There is nothing to install, just unpack and go:
+
+1. Grab the latest `ruby-devpack-<version>.7z` package from the [releases page](https://github.com/tknerr/ruby-devpack/releases) and unpack it
+1. Mount the devpack to the `X:\` drive by double-clicking the `mount-drive.bat` file
+1. Click `X:\Launch ConEmu.lnk` to open a command prompt (also runs `X:\set-env.bat` to set up the environment)
+1. Start hacking!
+
+## Building from Source (Development)
+
+As a prerequisite for building the Ruby DevPack you need a Ruby environment (yes chicken-egg ;-)) and 7zip installed in `C:\Program Files\7-Zip\7z.exe`.
 
 ### Building the Ruby DevPack
 
