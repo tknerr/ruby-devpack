@@ -16,7 +16,7 @@ Using the Ruby DevPack is fairly simple. There is nothing to install, just unpac
 1. Click `X:\Launch ConEmu.lnk` to open a command prompt (also runs `X:\set-env.bat` to set up the environment)
 1. Start hacking!
 
-## What's inside?
+## What's included?
 
 ### Main Tools
 
