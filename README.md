@@ -7,6 +7,14 @@ No installation, just [extract and get going](#installation-and-usage)!
 
 ![Ruby DevPack Screenshot](https://raw.github.com/tknerr/ruby-devpack/master/doc/ruby_devpack_screenshot.png)
 
+## Installation and Usage
+
+Using the Ruby DevPack is fairly simple. There is nothing to install, just unpack and go:
+
+1. Grab the latest `ruby-devpack-<version>.7z` package from the [releases page](https://github.com/tknerr/ruby-devpack/releases) and unpack it
+1. Mount the devpack to the `X:\` drive by double-clicking the `mount-drive.bat` file
+1. Click `X:\Launch ConEmu.lnk` to open a command prompt (also runs `X:\set-env.bat` to set up the environment)
+1. Start hacking!
 
 ## What's inside?
 
@@ -46,14 +54,6 @@ Registered doskey aliases:
 * run `be <command>` for `bundle exec <command>`
 * run `vi <file_or_dir>` for `sublime_text <file_or_dir>` 
 
-## Installation and Usage
-
-Using the Ruby DevPack is fairly simple. There is nothing to install, just unpack and go:
-
-1. Grab the latest `ruby-devpack-<version>.7z` package from the [releases page](https://github.com/tknerr/ruby-devpack/releases) and unpack it
-1. Mount the devpack to the `X:\` drive by double-clicking the `mount-drive.bat` file
-1. Click `X:\Launch ConEmu.lnk` to open a command prompt (also runs `X:\set-env.bat` to set up the environment)
-1. Start hacking!
 
 ## Building from Source (Development)
 
