@@ -3,7 +3,7 @@
 
 A [DevPack](http://blog.tknerr.de/blog/2014/10/09/devpack-philosophy-aka-works-on-your-machine/) with all you need for developing with Ruby on Windows, shrink-wrapped in a portable package. 
 
-No installation, just [extract and get going](#usage)!
+No installation, just [extract and get going](#installation-and-usage)!
 
 ![Ruby DevPack Screenshot](https://raw.github.com/tknerr/ruby-devpack/master/doc/ruby_devpack_screenshot.png)
 
@@ -88,13 +88,6 @@ By default the Ruby DevPack will be mounted to the `X:\` drive. If you need to c
 * `mount-drive.cmd`
 * `unmount-drive.cmd`
 
-## Usage
-
-1. unzip the `target/ruby-devpack-<version>.7z` somewhere
-2. mount the devpack to the `X:\` drive by double-clicking the `mount-w-drive.bat` file
-3. click `X:\Launch ConEmu.lnk` to open a command prompt
-4. in the command prompt run `X:\set-env.bat` to set up the environment
-5. start hacking!
 
 ## Acknowledgements & Licensing
 
