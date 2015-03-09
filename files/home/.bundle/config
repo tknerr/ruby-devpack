@@ -1,0 +1,4 @@
+---
+BUNDLE_PATH: ~/.gem/ruby/2.2.0
+BUNDLE_JOBS: 16
+BUNDLE_RETRY: 3

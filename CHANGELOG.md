@@ -1,7 +1,10 @@
 
 # 0.4 (unreleased)
 
- * ...
+ * add `~/.bundle/config`, which
+     * enables parallelism while downloading / installing gems
+     * enables up to 3 retries when downloading gems
+     * sets `BUNDLE_PATH` to `~/.gem/ruby/2.2.0` where all bundle installed gems will now end up
 
 # 0.3 (March 08, 2015)
 
