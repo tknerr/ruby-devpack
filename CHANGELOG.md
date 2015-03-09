@@ -1,4 +1,8 @@
 
+# 0.4 (unreleased)
+
+ * ...
+
 # 0.3.1 (March 09, 2015)
 
  * add `~/.bundle/config`, which

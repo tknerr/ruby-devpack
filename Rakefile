@@ -6,7 +6,7 @@ end
 $stdout.sync = true
 $stderr.sync = true
 
-VERSION = '0.3.1'
+VERSION = '0.4-SNAPSHOT'
 BASE_DIR = File.expand_path('.', File.dirname(__FILE__)) 
 TARGET_DIR  = "#{BASE_DIR}/target" 
 BUILD_DIR   = "#{BASE_DIR}/target/build"
